@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+
+<style>
+	.btn-submit {
+		width:150px;
+		height: 40px;
+		border: 0px solid;
+		background-image: url("download.png");
+		background-color:transparent;
+		background-size:contain;
+		background-repeat:no-repeat;
+		
+	}
+ </style>
+<form name=addingdata method=post action="mailto:darrellad@yahoo.com?subject=Form data from Upgrade Customer Questionnaire" onSubmit="return checkform()">
+
+        <div style="width: 791px; margin:auto">
+        <img src="Capturelogo.PNG" alt="" srcset="">
+        <div style="padding-right: 30px;">
+        &nbsp;<div style="float: right;">Issue Date <input type="date" name=datetoday></div><br>
+        &nbsp;<br>
+        </div> <center><font color=blue size=5><b><u>CUSTOMER QUESTIONNAIRE</u></b></font></center><br>
+        <div style=" width: 640px; margin:auto"> 
+        <p>We sincerely hope that you enjoyed doing business with J-Power Systems Saudi Co., Ltd.
+        This questionnaire is in continuation of our sustained effort to improve ourselves so that we
+        continue to be your preferred supplier. </p>
+
+            <table border="1" cellspacing=2 cellpadding=5>
+                <tr>
+                    <td >Customer Name</td>
+                    <td>:</td>
+                    <td ><input type="text" size=70 id=cusname name=cusname require></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>:</td>
+                    <td><input type="text" size=70 id=address name=address></td>
+                </tr>
+                <tr>
+                    <td>Telephone No.</td>
+                    <td>:</td>
+                    <td><input type="text" size=70 id=telnum name=telnum></td>
+                </tr>
+                <tr>
+                    <td>Fax No.</td>
+                    <td>:</td>
+                    <td><input type="text" size=70 id=faxnum name=faxnum></td>
+                </tr>
+                <tr>
+                    <td>Email Address</td>
+                    <td>:</td>
+                    <td><input type="text" size=70 id=emailid name=emailid></td>
+                </tr>
+
+
+            </table>
+            <br>
+            <text>Please tick the appropriate box to indicate your degree of satisfaction. </text><br>
+            Where: 1=  <font color=blue>Excellent </font>, 2= <font color=blue>Good</font>, 3= <font color=blue>Satisfactory</font>, 4= <font color=blue>Poor</font>,  5= <font color=blue>Very Poor</font><br>
+
+           <br> <table border="1" cellspacing=2 cellpadding=5>
+                <tr>
+                    <th><font color=white>aaaaaaaaaaaa</font>Topic<font color=white>aaaaaaaaaaaa</font></th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>Comments/ Improvements Suggestions</th>
+                </tr>
+                 <tr>
+                    <td colspan=7><b>Communication</b> </td>
+                    
+                </tr>
+                 <tr>
+                    <td>1-  How do you rate our responding to your inquiry? </td>
+                    <td><input type="radio" id="q1" name="q1" value=1></td>
+                    <td><input type="radio" id="q1" name="q1" value=2></td>
+                    <td><input type="radio" id="q1" name="q1" value=3></td>
+                    <td><input type="radio" id="q1" name="q1" value=4></td>
+                    <td><input type="radio" id="q1" name="q1" value=5></td>
+                 <td><textarea id="txtq1" name="txtq1" rows="2" cols="20" maxlength="200">   </textarea> </td>
+                </tr>
+                  <tr>
+                    <td>2-  How satisfied are you with the clarity of information or advice provided? </td>
+                    <td><input type="radio" id="q2" name="q2" value=1></td>
+                    <td><input type="radio" id="q2" name="q2" value=2></td>
+                    <td><input type="radio" id="q2" name="q2" value=3></td>
+                    <td><input type="radio" id="q2" name="q2" value=4></td>
+                    <td><input type="radio" id="q2" name="q2" value=5></td>
+                    <td><textarea id="txtq2" name="txtq2" rows="3" cols="20" maxlength="200">   </textarea> </td>
+                </tr>
+                 <tr>
+                    <td>3-  How do you rate our frequency of communication?  </td>
+                    <td><input type="radio" id="q3" name="q3" value=1></td>
+                    <td><input type="radio" id="q3" name="q3" value=2></td>
+                    <td><input type="radio" id="q3" name="q3" value=3></td>
+                    <td><input type="radio" id="q3" name="q3" value=4></td>
+                    <td><input type="radio" id="q3" name="q3" value=5></td>
+                    <td><textarea id="txtq3" name="txtq3" rows="2" cols="20" maxlength="200">   </textarea> </td>
+                </tr>
+                  <tr>
+                    <td>4-  How do you rate our follow-up response to your complaint if any?   </td>
+                    <td><input type="radio" id="q4" name="q4" value=1></td>
+                    <td><input type="radio" id="q4" name="q4" value=2></td>
+                    <td><input type="radio" id="q4" name="q4" value=3></td>
+                    <td><input type="radio" id="q4" name="q4" value=4></td>
+                    <td><input type="radio" id="q4" name="q4" value=5></td>
+                    <td><textarea id="txtq4" name="txtq4" rows="2" cols="20" maxlength="200">   </textarea> </td>
+                </tr>
+                  <tr>
+                    <td>5-  How do you rate our response to your urgent requests (e.i Products, delivery, services…etc)?     </td>
+                    <td><input type="radio" id="q5" name="q5" value=1></td>
+                    <td><input type="radio" id="q5" name="q5" value=2></td>
+                    <td><input type="radio" id="q5" name="q5" value=3></td>
+                    <td><input type="radio" id="q5" name="q5" value=4></td>
+                    <td><input type="radio" id="q5" name="q5" value=5></td>
+                    <td><textarea id="txtq5" name="txtq5" rows="3" cols="20" maxlength="200">   </textarea> </td>
+                </tr>
+                 <tr>
+                    <td colspan=7><b>Product Quality</b> </td>
+                    
+                </tr>
+                 <tr>
+                    <td>1-  How do you rate our products and services? (e.i Compliance with required specification, provided services...etc)?  </td>
+                    <td><input type="radio" id="q6" name="q6" value=1></td>
+                    <td><input type="radio" id="q6" name="q6" value=2></td>
+                    <td><input type="radio" id="q6" name="q6" value=3></td>
+                    <td><input type="radio" id="q6" name="q6" value=4></td>
+                    <td><input type="radio" id="q6" name="q6" value=5></td>
+                    <td><textarea id="txtq6" name="txtq6" rows="4" cols="20" maxlength="200">   </textarea> </td>
+                </tr>
+                  <tr>
+                    <td>2-  How would you compare our products/ services to our competitors?  </td>
+                    <td><input type="radio" id="q7" name="q7" value=1></td>
+                    <td><input type="radio" id="q7" name="q7" value=2></td>
+                    <td><input type="radio" id="q7" name="q7" value=3></td>
+                    <td><input type="radio" id="q7" name="q7" value=4></td>
+                    <td><input type="radio" id="q7" name="q7" value=5></td>
+                    <td><textarea id="txtq7" name="txtq7" rows="3" cols="20" maxlength="200">   </textarea> </td>
+                </tr>
+                 <tr>
+                    <td colspan=7><b>Delivery</b> </td>
+                    
+                </tr>
+                 <tr>
+                    <td>1-  How  do  you  rate  our  delivery  on time performance? </td>
+                    <td><input type="radio" id="q8" name="q8" value=1></td>
+                    <td><input type="radio" id="q8" name="q8" value=2></td>
+                    <td><input type="radio" id="q8" name="q8" value=3></td>
+                    <td><input type="radio" id="q8" name="q8" value=4></td>
+                    <td><input type="radio" id="q8" name="q8" value=5></td>
+                    <td><textarea id="txtq8" name="txtq8" rows="2" cols="20" maxlength="200">   </textarea> </td>
+                </tr>
+                  <tr>
+                    <td>2-  How do you rate our commitment to meet your delivery expectations?  </td>
+                    <td><input type="radio" id="q9" name="q9" value=1></td>
+                    <td><input type="radio" id="q9" name="q9" value=2></td>
+                    <td><input type="radio" id="q9" name="q9" value=3></td>
+                    <td><input type="radio" id="q9" name="q9" value=4></td>
+                    <td><input type="radio" id="q9" name="q9" value=5></td>
+                    <td><textarea id="txtq9" name="txtq9" rows="2" cols="20" maxlength="200">   </textarea> </td>
+                </tr>
+                 <tr>
+                    <td>3-  How do you rate our packing quality, shipping instruction and receiving?   </td>
+                    <td><input type="radio" id="q10" name="q10" value=1></td>
+                    <td><input type="radio" id="q10" name="q10" value=2></td>
+                    <td><input type="radio" id="q10" name="q10" value=3></td>
+                    <td><input type="radio" id="q10" name="q10" value=4></td>
+                    <td><input type="radio" id="q10" name="q10" value=5></td>
+                    <td><textarea id="txtq10" name="txtq10" rows="3" cols="20" maxlength="200">   </textarea> </td>
+                </tr>
+                 <tr>
+                    <td colspan=7><b>Documentation</b> </td>
+                    
+                </tr>
+                 <tr>
+                    <td>1-  How do your rate our documents submission turnaround time? </td>
+                    <td><input type="radio" id="q11" name="q11" value=1></td>
+                    <td><input type="radio" id="q11" name="q11" value=2></td>
+                    <td><input type="radio" id="q11" name="q11" value=3></td>
+                    <td><input type="radio" id="q11" name="q11" value=4></td>
+                    <td><input type="radio" id="q11" name="q11" value=5></td>
+                    <td><textarea id="txtq11" name="txtq11" rows="2" cols="20" maxlength="200">   </textarea> </td>
+                </tr>
+                  <tr>
+                    <td>2-  How do you rate the documents quality?   </td>
+                    <td><input type="radio" id="q12" name="q12" value=1></td>
+                    <td><input type="radio" id="q12" name="q12" value=2></td>
+                    <td><input type="radio" id="q12" name="q12" value=3></td>
+                    <td><input type="radio" id="q12" name="q12" value=4></td>
+                    <td><input type="radio" id="q12" name="q12" value=5></td>
+                    <td><textarea id="txtq12" name="txtq12" rows="2" cols="20" maxlength="200">   </textarea> </td>
+                </tr>
+                 <tr>
+                    <td colspan=7><b>Prices</b> </td>
+                    
+                </tr>
+                 <tr>
+                    <td>1-  How do you rate our prices that were offered to you?  </td>
+                    <td><input type="radio" id="q13" name="q13" value=1></td>
+                    <td><input type="radio" id="q13" name="q13" value=2></td>
+                    <td><input type="radio" id="q13" name="q13" value=3></td>
+                    <td><input type="radio" id="q13" name="q13" value=4></td>
+                    <td><input type="radio" id="q13" name="q13" value=5></td>
+                    <td><textarea id="txtq13" name="txtq13" rows="2" cols="20" maxlength="200">   </textarea> </td>
+                </tr>
+                  <tr>
+                    <td>2-  How do you rate our payment facilities?   </td>
+                    <td><input type="radio" id="q14" name="q14" value=1></td>
+                    <td><input type="radio" id="q14" name="q14" value=2></td>
+                    <td><input type="radio" id="q14" name="q14" value=3></td>
+                    <td><input type="radio" id="q14" name="q14" value=4></td>
+                    <td><input type="radio" id="q14" name="q14" value=5></td>
+                    <td><textarea id="txtq14" name="txtq14" rows="2" cols="20" maxlength="200">   </textarea> </td>
+                </tr>
+                 <tr>
+                    <td>3-  How would you compare our priced products/services to our competitors?     </td>
+                    <td><input type="radio" id="q15" name="q15" value=1></td>
+                    <td><input type="radio" id="q15" name="q15" value=2></td>
+                    <td><input type="radio" id="q15" name="q15" value=3></td>
+                    <td><input type="radio" id="q15" name="q15" value=4></td>
+                    <td><input type="radio" id="q155" name="q15" value=5></td>
+                    <td><textarea id="txtq15" name="txtq15" rows="3" cols="20" maxlength="200">   </textarea> </td>
+                </tr>
+                 <tr>
+                    <td colspan=7><b>Overall Satisfactory</b> </td>
+                    
+                </tr>
+                 <tr>
+                    <td>1-  How do you rate your experience with us?  </td>
+                    <td><input type="radio" id="q16" name="q16" value=1></td>
+                    <td><input type="radio" id="q16" name="q16" value=2></td>
+                    <td><input type="radio" id="q16" name="q16" value=3></td>
+                    <td><input type="radio" id="q16" name="q16" value=4></td>
+                    <td><input type="radio" id="q16" name="q16" value=5></td>
+                    <td><textarea id="txtq16" name="txtq16" rows="2" cols="20" maxlength="200">   </textarea> </td>
+                </tr>
+            </table> <br>
+               <table border="1" cellspacing=2 cellpadding=5>
+               <td colspan=8><b>Suggestions to improve JPSS experience with you in the future: </b> </td>
+                    
+                </tr>
+                 <tr>
+                 <td colspan=7><textarea id="q17" name="q17" rows="5" cols="83" maxlength="200">
+                 </textarea></td>
+                </tr>
+             </table><br>
+               <table border="1" cellspacing=2 cellpadding=5>
+               <td colspan=8><b>General Comments/ Remarks:       </b> </td>
+                    
+                </tr>
+                 <tr>
+                 <td colspan=7><textarea id="q18" name="q18" rows="5" cols="83" maxlength="200" >
+                 </textarea></td>
+                </tr>
+             </table>
+               <br>
+               <table border="1" cellspacing=2 cellpadding=5>
+               <td colspan=8><b>Evaluation Form filled by </b> </td>
+                    
+                </tr>
+                 <tr>
+                 <td>Name: <input type="text" size=30 id=cname name=cname></td>
+                 <td rowspan=2>signature: <input type="text" size=35 id=signature name=signature></td>
+                 </tr>
+                 <tr>
+                 <td>Designation: <input type="text" size=25 id=designation name=designation></td>
+                </tr>
+             </table>
+              <br><center>
+               <table border="0" cellspacing=2 cellpadding=5>
+                 <tr>
+                 <td><input type=submit id=submit class='btn-submit' Value=Submit></td>
+                 </tr>
+              
+             </table></center>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+</style>
